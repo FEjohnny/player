@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>普通版视频播放示例</title>
+    <title>seajs版视频播放示例</title>
 </head>
 <body>
     <div style="position:absolute;top:0;bottom:0;left:0;right:0;">
@@ -15,8 +15,12 @@
             style="width: 100%;height:100%"
         ></div>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/swfobject.js"></script>
-    <script src="js/show.js"></script>
+    <script src="libs/seajs/seajs/2.2.1/sea.js"></script>
+    <script src="libs/seajs-global-config.js"></script>
+    <script>
+        seajs.use('show-own',function(show){
+            show.run();
+        });
+    </script>
 </body>
 </html>

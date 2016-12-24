@@ -1,9 +1,8 @@
 define(function(require, exports, module) {
-
-    var Widget = require('widget');
+    var $ = window.jQuery = jQuery = require('jquery')
     var swfobject = require('swfobject');
 
-    var CloudVideoPlayer = Widget.extend({
+    var CloudVideoPlayer = {
         attrs: {
             url: '',
             urlType: '',
@@ -12,14 +11,17 @@ define(function(require, exports, module) {
             _firstPlay: true,
             runtime: null
         },
-
+        init: function (options) {
+            this.attrs = $.extend(this.attrs,options);
+            this.setup();
+        },
         events: {},
 
         setup: function() {
             console.log('setup');
             window.__MediaPlayerEventProcesser = this._evetProcesser;
             window.__MediaPlayer = this;
-            this.set("playerId", this.element.attr("id"));
+            this.attrs.playerId =  this.attrs.element;
             if (swfobject.hasFlashPlayerVersion('10.2')) {
                 //add by chenjun 解决七牛云视频播放问题，对url进行encode，防止token被播放器截掉。
                 this.attrs.url.value = encodeURIComponent(this.attrs.url.value);
@@ -35,73 +37,72 @@ define(function(require, exports, module) {
 
         dispose: function(){
             console.log('dispose');
-            var runtime = this.get('runtime');
+            var runtime = this.attrs.runtime;
             if (runtime == 'flash') {
-                swfobject.removeSWF(this.get('playerId'));
+                swfobject.removeSWF(this.attrs.playerId);
             } else if (runtime == 'html5') {
-                $("#" + this.get('playerId')).remove();
+                $("#" + this.attrs.playerId).remove();
             }
         },
 
         _initHtml5Player: function() {
             console.log('_initHtml5Player');
-            var style= "width:" + this.get('width') + ';height:' + this.get('height');
-            var html = '<video id="' + this.get('playerId') + '" src="';
-            html += this.get('url') + '" autoplay controls style="' + style + '">';
+            var style= "width:" + this.attrs.width + ';height:' + this.attrs.height;
+            var html = '<video id="' + this.attrs.playerId + '" src="';
+            html += this.attrs.url + '" autoplay controls style="' + style + '">';
             html += '</video>';
-            var parent = this.element.parent();
-            this.element.remove();
+            var parent =  $(this.attrs.element).parent();
+            $(this.attrs.element).remove();
             parent.html(html);
-            this.set('runtime', 'html5');
+            this.attrs.runtime = 'html5';
         },
 
         _isSupportHtml5Video: function() {
-            console.log('_isSupportHtml5Video');
             return !!document.createElement('video').canPlayType;
         },
 
         _initGrindPlayer: function() {
             console.log('_initGrindPlayer');
+            var self = this;
             var flashvars = {
-                src:  this.get('url'),
-                javascriptCallbackFunction: "__MediaPlayerEventProcesser",
+                src:  this.attrs.url,
+                javascriptCallbackFunction: '__MediaPlayerEventProcesser',
                 autoPlay:false,
                 autoRewind: false,
                 loop:false,
                 bufferTime: 8
             };
-            console.log(flashvars)
             flashvars.plugin_hls = "/player/libs/player/flashls-0.4.0.3.swf";
             flashvars.hls_maxbackbufferlength = 300;
             
-            if (this.get('watermark')) {
+            if (this.attrs.watermark) {
                 flashvars.plugin_watermake = 'https://cdn.staticfile.org/GrindPlayerCN/1.0.2/Watermake-1.0.3.swf';
                 flashvars.watermake_namespace = 'watermake';
-                flashvars.watermake_url = this.get('watermark');
+                flashvars.watermake_url = this.attrs.watermark;
             }
 
-            if (this.get('fingerprint')) {
+            if (this.attrs.fingerprint) {
                 flashvars.plugin_fingerprint = "https://cdn.staticfile.org/GrindPlayerCN/1.0.2/Fingerprint-1.0.1.swf";
                 flashvars.fingerprint_namespace = 'fingerprint';
-                flashvars.fingerprint_src = this.get('fingerprintSrc');
+                flashvars.fingerprint_src = this.attrs.fingerprintSrc;
             }
 
             var params = {
                 wmode:'opaque',
-                allowFullScreen: true
-                , allowScriptAccess: "always"
-                , bgcolor: "#000000"
+                allowFullScreen: true,
+                allowScriptAccess: "always",
+                bgcolor: "#000000"
             };
 
             var attrs = {
-                name: this.element.attr("id")
+                name: $(this.attrs.element).attr('id')
             };
             swfobject.embedSWF(
                 "https://cdn.staticfile.org/GrindPlayerCN/1.0.2/GrindPlayer.swf",
-                this.element.attr("id"),
-                this.get('width'),  this.get('height') , "10.2", null, flashvars, params, attrs
+                $(this.attrs.element).attr('id'),
+                this.attrs.width,  this.attrs.height , "10.2", null, flashvars, params, attrs
             );
-            this.set('runtime', 'flash');
+            this.attrs.runtime='flash';
         },
 
         _evetProcesser: function(playerId, event, data) {
@@ -111,11 +112,11 @@ define(function(require, exports, module) {
                 case "onJavaScriptBridgeCreated":
                     break;
                 case "ready":
-                    if(window.__MediaPlayer.get('_firstPlay')) {
+                    if(window.__MediaPlayer.attrs._firstPlay) {
                         var player = document.getElementById(playerId);
                         player.play2();
                         window.__MediaPlayer.trigger('ready', data);
-                        window.__MediaPlayer.set('_firstPlay', false);
+                        window.__MediaPlayer.attrs._firstPlay=false;
                     }
                     break;
                 case "complete":
@@ -135,7 +136,7 @@ define(function(require, exports, module) {
         },
 
         play: function(){
-            var player = document.getElementById(this.get("playerId"));
+            var player = document.getElementById(this.attr.playerId);
             player.play2();
         },
 
@@ -144,22 +145,22 @@ define(function(require, exports, module) {
         },
 
         getCurrentTime: function() {
-            var player = document.getElementById(this.get("playerId"));
+            var player = document.getElementById(this.attr.playerId);
             return player.getCurrentTime();
         },
 
         getDuration: function() {
-            var player = document.getElementById(this.get("playerId"));
+            var player = document.getElementById(this.attr.playerId);
             return player.getDuration();
         },
 
         setCurrentTime: function(time) {
-            var player = document.getElementById(this.get("playerId"));
+            var player = document.getElementById(this.attr.playerId);
             player.seek(time);
         },
 
         isPlaying: function() {
-            var player = document.getElementById(this.get("playerId"));
+            var player = document.getElementById(this.attr.playerId);
             if(player.getPlaying){
                 return player.getPlaying();
             } 
@@ -170,7 +171,7 @@ define(function(require, exports, module) {
 
         }
 
-    });
+    };
 
     module.exports = CloudVideoPlayer;
 });

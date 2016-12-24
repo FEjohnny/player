@@ -16,7 +16,9 @@ seajs.config({
         'placeholder': 'arale/placeholder/1.1.0/placeholder',
         'json': 'gallery/json/1.0.3/json',
         "swfobject": "gallery/swfobject/2.2.0/swfobject.js",
-        'show':'player/show.js'
+        "swfobject-debug": "gallery/swfobject/2.2.0/swfobject-debug.js",
+        'show':'player/show.js',
+        'show-own':'player/show-own.js'
     },
 
     // 预加载项

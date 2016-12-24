@@ -1,7 +1,7 @@
 define(function(require, exports, module) {
     var $ = window.jQuery = jQuery = require('jquery')
     var swfobject = require('swfobject');
-    var CloudVideoPlayer = require('./cloud-video-player');
+    var CloudVideoPlayer = require('./cloud-video-player-own');
 
     exports.run = function() {
         var videoHtml = $('#lesson-video-content');
@@ -45,7 +45,7 @@ define(function(require, exports, module) {
         videoHtml.html(html);
         videoHtml.show();
 
-        var player = new CloudVideoPlayer({
+        var player = CloudVideoPlayer.init({
             element: '#lesson-player',
             url: url,
             fingerprint: fingerprint,

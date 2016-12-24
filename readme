@@ -1,0 +1,4 @@
+如果出现报错信息：
+    Erro:
+    Message:Stream not found
+需要将crossdomain.xml放到项目更目录下
