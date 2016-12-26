@@ -1,4 +1,7 @@
 如果出现报错信息：
     Erro:
     Message:Stream not found
-需要将crossdomain.xml放到项目更目录下
+需要将crossdomain.xml放到项目更目录
+
+2016/12/26
+支持amd cmd node等模块引入
