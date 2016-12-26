@@ -1,0 +1,15 @@
+{
+  "name": "player",
+  "version": "1.0.0",
+  "description": "a video player plugin,suppots AMD CMD Node and JavScript.",
+  "main": "show.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "video",
+    "player"
+  ],
+  "author": "cjun@servyou.com.cn",
+  "license": "ISC"
+}

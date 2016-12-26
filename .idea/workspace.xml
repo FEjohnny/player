@@ -1,7 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53914acb-4fc3-46b8-8558-06684751cd3a" name="Default" comment="" />
+    <list default="true" id="53914acb-4fc3-46b8-8558-06684751cd3a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/example-for-normal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/player/CloudVideoPlayer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/player/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/show-seajs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example-seajs-aral.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example-seajs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/Fingerprint-1.0.1.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/GrindPlayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/Watermake-1.0.3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/flashls-0.4.0.3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/show.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/autocomplete/1.2.2/autocomplete-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/autocomplete/1.2.2/autocomplete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/autocomplete/1.2.2/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/autocomplete/1.2.2/textarea-complete-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/autocomplete/1.2.2/textarea-complete.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/base/1.1.0/base-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/base/1.1.0/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/base/1.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/base/1.1.1/base-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/base/1.1.1/base.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/base/1.1.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/class/1.1.0/class-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/class/1.1.0/class.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/class/1.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/cookie/1.0.2/cookie-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/cookie/1.0.2/cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/cookie/1.0.2/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/cookie/1.0.2/src/cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/events/1.1.0/events-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/events/1.1.0/events.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/events/1.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/iframe-shim/1.0.2/iframe-shim-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/iframe-shim/1.0.2/iframe-shim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/iframe-shim/1.0.2/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/messenger/2.0.0/messenger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.1/mask-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.1/mask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.1/overlay-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.1/overlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.4/mask-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.4/mask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.4/overlay-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.4/overlay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/overlay/1.1.4/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/placeholder/1.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/placeholder/1.1.0/placeholder-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/placeholder/1.1.0/placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/position/1.0.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/position/1.0.1/position-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/position/1.0.1/position.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/sticky/1.3.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/sticky/1.3.1/sticky-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/sticky/1.3.1/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/templatable/0.9.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/templatable/0.9.1/templatable-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/templatable/0.9.1/templatable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/upload/1.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/upload/1.1.0/upload-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/upload/1.1.0/upload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/validator/0.9.6/core-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/validator/0.9.6/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/validator/0.9.6/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/validator/0.9.6/validator-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/validator/0.9.6/validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/widget/1.1.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/widget/1.1.0/widget-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/widget/1.1.0/widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/widget/1.1.1/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/widget/1.1.1/widget-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arale/widget/1.1.1/widget.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/json/1.0.3/json-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/json/1.0.3/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/json/1.0.3/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/expressInstall.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/swfobject-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jquery/1.11.2/jquery-debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jquery/1.11.2/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/audio-player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/balloon-cloud-video-player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/cloud-video-player-own.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/cloud-video-player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/flashls-0.4.0.3.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/local-video-player.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/messenger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/player-factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/player/show-own.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/player/show.js" afterPath="$PROJECT_DIR$/libs/player/show.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/seajs-global-config.js" afterPath="$PROJECT_DIR$/libs/seajs-global-config.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/example-seajs-aral.html" afterPath="$PROJECT_DIR$/example-for-CMD.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Fingerprint-1.0.1.swf" afterPath="$PROJECT_DIR$/libs/player/swf/Fingerprint-1.0.1.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/GrindPlayer.swf" afterPath="$PROJECT_DIR$/libs/player/swf/GrindPlayer.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/Watermake-1.0.3.swf" afterPath="$PROJECT_DIR$/libs/player/swf/Watermake-1.0.3.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/flashls-0.4.0.3.swf" afterPath="$PROJECT_DIR$/libs/player/swf/flashls-0.4.0.3.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js/jquery.js" afterPath="$PROJECT_DIR$/libs/jquery.js" />
+    </list>
     <ignored path="player.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,35 +126,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="example.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18181819">
-              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/show.js">
+      <file leaf-file-name="sea.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libs/seajs/seajs/2.2.1/sea.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
-              <folding>
-                <element signature="e#23#5100#0" expanded="false" />
-                <marker date="1482572469618" expanded="true" signature="5922:5947" placeholder="..." />
-                <marker date="1482572469618" expanded="true" signature="6089:6114" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swfobject.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/swfobject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.5">
-              <caret line="4" column="586" selection-start-line="4" selection-start-column="585" selection-end-line="4" selection-end-column="586" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,6 +144,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,8 +178,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-46" />
+    <option name="y" value="-841" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -107,7 +190,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -125,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,13 +236,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seajs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seajs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seajs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.2.1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,14 +299,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\servyou\website\player\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\personal\player" />
       <recent name="D:\servyou\website\player\js\swf" />
       <recent name="D:\servyou\website\player\js" />
       <recent name="D:\servyou\website\player" />
       <recent name="D:\servyou\website\player\libs\player" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\servyou\website\player\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -223,17 +351,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-46" y="-841" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23823975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24203338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5140033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -241,6 +368,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5140033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -262,356 +390,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/example-seajs-aral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/show.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <marker date="1482568362593" expanded="true" signature="1096:1121" placeholder="..." />
-            <marker date="1482568362593" expanded="true" signature="1271:1296" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/cloud-video-player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-seajs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/show.js">
+    <entry file="file://$PROJECT_DIR$/libs/seajs/seajs/2.2.1/sea.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#23#5100#0" expanded="false" />
-            <marker date="1482572469618" expanded="true" signature="5922:5947" placeholder="..." />
-            <marker date="1482572469618" expanded="true" signature="6089:6114" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/base/1.1.1/base-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/swfobject-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="647" column="54" selection-start-line="647" selection-start-column="38" selection-end-line="647" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-seajs-aral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/show.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <marker date="1482568362593" expanded="true" signature="1096:1121" placeholder="..." />
-            <marker date="1482568362593" expanded="true" signature="1271:1296" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/seajs-global-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/cloud-video-player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crossdomain.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14545454">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/class/1.1.0/class-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/class/1.1.0/class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/widget/1.1.1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/gallery/json/1.0.3/json.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/audio-player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2777778">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/seajs/seajs/2.2.1/sea-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3694853">
-          <caret line="604" column="29" selection-start-line="604" selection-start-column="29" selection-end-line="604" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/widget/1.1.1/widget.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034722224">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/cookie/1.0.2/src/cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/base/1.1.1/base-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.006945">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/arale/widget/1.1.1/widget-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2777778">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/show.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8680556">
-          <caret line="70" column="13" selection-start-line="59" selection-start-column="7" selection-end-line="70" selection-end-column="13" />
-          <folding>
-            <marker date="1482568362593" expanded="true" signature="1096:1121" placeholder="..." />
-            <marker date="1482568362593" expanded="true" signature="1271:1296" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/swfobject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/gallery/swfobject/2.2.0/swfobject-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.125">
-          <caret line="647" column="34" selection-start-line="647" selection-start-column="34" selection-end-line="647" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/seajs-global-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1736111">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/show-own.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/cloud-video-player-own.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/player/cloud-video-player.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.15625">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="335" selection-start-line="3" selection-start-column="335" selection-end-line="3" selection-end-column="335" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jquery/1.11.2/jquery-debug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="174" column="0" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-seajs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8846154">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/flashls-0.4.0.3.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example-seajs-aral.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Watermake-1.0.3.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/GrindPlayer.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Fingerprint-1.0.1.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/swfobject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="586" selection-start-line="4" selection-start-column="585" selection-end-line="4" selection-end-column="586" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/show.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
-          <folding>
-            <element signature="e#23#5100#0" expanded="false" />
-            <marker date="1482572469618" expanded="true" signature="5922:5947" placeholder="..." />
-            <marker date="1482572469618" expanded="true" signature="6089:6114" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18181819">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
