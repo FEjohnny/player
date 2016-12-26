@@ -1,7 +1,7 @@
 {
   "name": "player",
-  "version": "1.0.0",
-  "description": "a video player plugin,suppots AMD CMD Node and JavScript.",
+  "version": "1.0.1",
+  "description": "A powerful video playback plug-in, support for flash and html5 video playback, support amd / cmd / node and other modules introduced",
   "main": "show.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
