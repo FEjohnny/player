@@ -116,7 +116,9 @@
                     case "ready":
                         if(window.__MediaPlayer.attrs._firstPlay) {
                             var player = document.getElementById(playerId);
-                            player.play2();
+                            if(window.__MediaPlayer.attrs.autoplay.value) {
+                                player.play2();
+                            }
                             window.__MediaPlayer.trigger('ready', data);
                             window.__MediaPlayer.attrs._firstPlay=false;
                         }

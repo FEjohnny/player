@@ -78,10 +78,13 @@
         addEvent: function () {
             //注册事件
             CloudVideoPlayer.addEvent('ready', function () {
+                alert('ready');
             });
             CloudVideoPlayer.addEvent('paused', function () {
+                alert('paused');
             });
             CloudVideoPlayer.addEvent('playing', function () {
+                alert('playing');
             });
             CloudVideoPlayer.addEvent('ended', function () {
             });
